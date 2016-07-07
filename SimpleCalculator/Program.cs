@@ -13,29 +13,35 @@ namespace SimpleCalculator
         static void Main(string[] args)
         {
             //variables
-            int first;
-            int second;
+            double first;
+            double second;
+            string input;
             char operand;
 
             //declare object
             var calc = new Class1();
 
-            
-            //get first num
-            Console.WriteLine("Enter your first int: ");
-            first = Int32.Parse(Console.ReadLine());
+            do
+            {
+                //get first num
+                Console.WriteLine("Enter your first num: ");
+                first = double.Parse(Console.ReadLine());
 
-            //get operand
-            Console.WriteLine("Enter the operand: ");
-            operand = Convert.ToChar(Console.ReadLine());
+                //get operand
+                Console.WriteLine("Enter the operand: ");
+                operand = Convert.ToChar(Console.ReadLine());
 
-            //get second num
-            Console.WriteLine("Enter your second int: ");
-            second = Int32.Parse(Console.ReadLine());
+                //get second num
+                Console.WriteLine("Enter your second num: ");
+                second = double.Parse(Console.ReadLine());
 
-            //print results
-            Console.WriteLine("Result =  " + calc.operation(first, operand, second));
-            
+                //print results
+                Console.WriteLine("Result =  " + calc.operation(first, operand, second));
+                Console.WriteLine("Do another:");
+                input = Console.ReadLine();
+
+
+            } while (input.Contains("y"));
         }
     }
 }
