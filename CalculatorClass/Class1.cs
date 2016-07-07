@@ -30,12 +30,11 @@ namespace CalculatorClass
                         result = firstNum * secondNum;
                         break;
 
-                    case '/':
+                    default:
                         result = firstNum / secondNum;
                         break;
 
-                    default:
-                        return 0;
+                    
 
                 }//end switch
 
