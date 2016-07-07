@@ -1,0 +1,7 @@
+C:\Users\nathan.egbert\Desktop\Dev-Training\SimpleCalculator\CalculatorTests\bin\Debug\CalculatorTests.dll
+C:\Users\nathan.egbert\Desktop\Dev-Training\SimpleCalculator\CalculatorTests\bin\Debug\CalculatorTests.pdb
+C:\Users\nathan.egbert\Desktop\Dev-Training\SimpleCalculator\CalculatorTests\bin\Debug\CalculatorClass.dll
+C:\Users\nathan.egbert\Desktop\Dev-Training\SimpleCalculator\CalculatorTests\bin\Debug\CalculatorClass.pdb
+C:\Users\nathan.egbert\Desktop\Dev-Training\SimpleCalculator\CalculatorTests\obj\Debug\CalculatorTests.csprojResolveAssemblyReference.cache
+C:\Users\nathan.egbert\Desktop\Dev-Training\SimpleCalculator\CalculatorTests\obj\Debug\CalculatorTests.dll
+C:\Users\nathan.egbert\Desktop\Dev-Training\SimpleCalculator\CalculatorTests\obj\Debug\CalculatorTests.pdb
