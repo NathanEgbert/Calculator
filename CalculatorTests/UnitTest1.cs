@@ -8,7 +8,7 @@ namespace CalculatorTests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Addition()
         {
             //Arrange
             var obj = new Class1();
@@ -22,7 +22,7 @@ namespace CalculatorTests
         }//addition
 
         [TestMethod]
-        public void TestMethod2()
+        public void Subtraction()
         {
             //Arrange
             var obj = new Class1();
@@ -33,10 +33,10 @@ namespace CalculatorTests
             //Assert
             Assert.AreEqual(result, 5);
 
-        }//subtraction
+        }
 
         [TestMethod]
-        public void TestMethod3()
+        public void Multiplication()
         {
             //Arrange
             var obj = new Class1();
@@ -47,10 +47,10 @@ namespace CalculatorTests
             //Assert
             Assert.AreEqual(result, 50);
             
-        }//subtraction
+        }
 
         [TestMethod]
-        public void TestMethod4()
+        public void Division()
         {
             //Arrange
             var obj = new Class1();
@@ -61,7 +61,7 @@ namespace CalculatorTests
             //Assert
             Assert.AreEqual(result, 2);
 
-        }//subtraction
+        }
 
 
     }
