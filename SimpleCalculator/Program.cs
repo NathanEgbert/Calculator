@@ -9,14 +9,19 @@ namespace SimpleCalculator
 {
     class Program
     {
+        static double first;
+        static double second;
+        static string input;
+        static char operand;
         
         static void Main(string[] args)
         {
-            //variables
-            double first;
-            double second;
-            string input;
-            char operand;
+            execute();
+
+        }//end main
+
+        public static void execute()
+        {
 
             //declare object
             var calc = new Class1();
@@ -42,6 +47,6 @@ namespace SimpleCalculator
 
 
             } while (input.Contains("y"));
-        }
+        }//end execute
     }
 }
