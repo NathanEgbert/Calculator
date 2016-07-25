@@ -1,0 +1,5 @@
+C:\Users\nathan.egbert\Desktop\SimpleCalculator\CalculatorConsole\bin\Debug\CalculatorConsole.exe.config
+C:\Users\nathan.egbert\Desktop\SimpleCalculator\CalculatorConsole\bin\Debug\CalculatorConsole.exe
+C:\Users\nathan.egbert\Desktop\SimpleCalculator\CalculatorConsole\bin\Debug\CalculatorConsole.pdb
+C:\Users\nathan.egbert\Desktop\SimpleCalculator\CalculatorConsole\obj\Debug\CalculatorConsole.exe
+C:\Users\nathan.egbert\Desktop\SimpleCalculator\CalculatorConsole\obj\Debug\CalculatorConsole.pdb
