@@ -9,42 +9,48 @@ namespace CalculatorClass
     public class Class1
     {
 
+        private double result;
 
-
-        public double operation(double firstNum, char operand, double secondNum)
+        public void operation(List<double> nums, List<char> operands)
         {
-            
-                double result;
+            if (operands.ElementAt(0) == '+')
+            {
+                result += (nums.ElementAt(0) + nums.ElementAt(0 + 1));
+            }//end if
 
-                switch (operand)
+            else if (operands.ElementAt(0) == '-')
+            {
+                result += (nums.ElementAt(0) - nums.ElementAt(0 + 1));
+            }//end else if
+
+
+
+            for (int i = 1; i < operands.Count; i++)
+            {
+                switch (operands.ElementAt(i))
                 {
                     case '+':
-                        result = firstNum + secondNum;
+                        //result += nums.ElementAt(i);
+                        result += (nums.ElementAt(i));
                         break;
 
                     case '-':
-                        result = firstNum - secondNum;
-                        break;
-
-                    case '*':
-                        result = firstNum * secondNum;
-                        break;
-
-                    case '/':
-                        result = firstNum / secondNum;
+                        //result -= nums.ElementAt(i);
+                        result -= (nums.ElementAt(i));
                         break;
 
                     default:
-                        return 0;
+                        break;
 
                 }//end switch
+            }//end for
+        }//end method
 
+        public double getResult()
+        {
+            return result;
+        }//end getResult
 
-
-                return result;
-            
-            }//end method
-   
 
 
     }

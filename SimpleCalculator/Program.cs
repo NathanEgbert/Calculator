@@ -9,10 +9,7 @@ namespace SimpleCalculator
 {
     class Program
     {
-        static double first;
-        static double second;
-        static string input;
-        static char operand;
+        
         
         static void Main(string[] args)
         {
@@ -22,6 +19,11 @@ namespace SimpleCalculator
 
         public static void execute()
         {
+            
+         List<double> numbers = new List<double>();
+         List<char> operators = new List<char>();
+    
+            
 
             //declare object
             var calc = new Class1();
@@ -29,24 +31,22 @@ namespace SimpleCalculator
             do
             {
                 //get first num
-                Console.WriteLine("Enter your first num: ");
-                first = double.Parse(Console.ReadLine());
+                Console.WriteLine("Enter your num: ");
+                numbers.Add(double.Parse(Console.ReadLine()));
 
                 //get operand
                 Console.WriteLine("Enter the operand: ");
-                operand = Convert.ToChar(Console.ReadLine());
+                operators.Add(Convert.ToChar(Console.ReadLine()));
 
-                //get second num
-                Console.WriteLine("Enter your second num: ");
-                second = double.Parse(Console.ReadLine());
-
-                //print results
-                Console.WriteLine("Result =  " + calc.operation(first, operand, second));
-                Console.WriteLine("Do another:");
-                input = Console.ReadLine();
+            
+                
 
 
-            } while (input.Contains("y"));
+            } while (!operators.Contains('='));
+
+            calc.operation(numbers, operators);
+
+            Console.WriteLine("Result is: " + calc.getResult());
         }//end execute
     }
 }
