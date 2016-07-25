@@ -39,9 +39,6 @@ namespace SimpleCalculator
                 operators.Add(Convert.ToChar(Console.ReadLine()));
 
 
-
-
-
             } while (!operators.Contains('='));
 
             calc.operation(numbers, operators);
