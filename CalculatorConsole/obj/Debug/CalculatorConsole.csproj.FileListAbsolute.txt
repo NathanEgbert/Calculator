@@ -6,6 +6,5 @@ C:\Users\nathan.egbert\Desktop\SimpleCalculator\CalculatorConsole\obj\Debug\Calc
 C:\Users\nathan.egbert\Documents\GitHub\Calculator\CalculatorConsole\bin\Debug\CalculatorConsole.exe.config
 C:\Users\nathan.egbert\Documents\GitHub\Calculator\CalculatorConsole\bin\Debug\CalculatorConsole.exe
 C:\Users\nathan.egbert\Documents\GitHub\Calculator\CalculatorConsole\bin\Debug\CalculatorConsole.pdb
-C:\Users\nathan.egbert\Documents\GitHub\Calculator\CalculatorConsole\obj\Debug\CalculatorConsole.csprojResolveAssemblyReference.cache
 C:\Users\nathan.egbert\Documents\GitHub\Calculator\CalculatorConsole\obj\Debug\CalculatorConsole.exe
 C:\Users\nathan.egbert\Documents\GitHub\Calculator\CalculatorConsole\obj\Debug\CalculatorConsole.pdb

@@ -22,7 +22,7 @@ namespace SimpleCalculator
 
             List<double> numbers = new List<double>();
             List<char> operators = new List<char>();
-
+            
 
 
             //declare object
@@ -41,9 +41,9 @@ namespace SimpleCalculator
 
             } while (!operators.Contains('='));
 
-            calc.operation(numbers, operators);
+          double result = calc.operation(numbers, operators);
 
-            Console.WriteLine("Result is: " + calc.getResult());
+            Console.WriteLine("Result is: " + result);
         }//end execute
     }
 }
