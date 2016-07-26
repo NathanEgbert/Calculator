@@ -15,34 +15,35 @@ namespace CalculatorClass
         {
             if (operands.ElementAt(0) == '+')
             {
-                result += (nums.ElementAt(0) + nums.ElementAt(0 + 1));
+                result += (nums.ElementAt(0) + nums.ElementAt(1));
             }//end if
 
             else if (operands.ElementAt(0) == '-')
             {
-                result += (nums.ElementAt(0) - nums.ElementAt(0 + 1));
+                result += (nums.ElementAt(0) - nums.ElementAt(1));
             }//end else if
 
 
 
             for (int i = 1; i < operands.Count; i++)
             {
-                switch (operands.ElementAt(i))
-                {
-                    case '+':
-                        
-                        result += (nums.ElementAt(i));
-                        break;
+                
+                    switch (operands.ElementAt(i))
+                    {
+                        case '+':
 
-                    case '-':
-                        
-                        result -= (nums.ElementAt(i));
-                        break;
+                            result += (nums.ElementAt(i+1));
+                            break;
 
-                    default:
-                        break;
+                        case '-':
 
-                }//end switch
+                            result -= (nums.ElementAt(i+1));
+                            break;
+
+                        default:
+                            break;
+
+                    }//end switch
             }//end for
         }//end method
 
