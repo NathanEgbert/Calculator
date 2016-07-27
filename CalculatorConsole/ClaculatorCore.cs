@@ -15,9 +15,6 @@ namespace CalculatorClass
         {
             double result = nums[0]; 
            
-            //numberOperations(nums[1], operands[0]);
-
-
 
             for (int i = 0; i < operands.Count-1; i++)
             {
@@ -30,22 +27,22 @@ namespace CalculatorClass
 
         private double numberOperations(double num1, double num2, char operand)
         {
-            double result = num1;
+            double total = num1;
             switch (operand)
             {
                 case '+':
 
-                   result += num2;
+                   total += num2;
                    break;
 
                 case '-':
 
-                   result -= num2;
+                   total -= num2;
                    break;
 
             }//end switch
 
-            return result;
+            return total;
         }
 
         
